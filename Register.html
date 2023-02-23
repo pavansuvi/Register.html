@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            text-align: center;
+          
+            
+        }
+        div{
+            border: 3px solid black;
+            background-color: aqua;
+            padding: 10px;
+            margin: 3px;
+        }
+        .wrapper{
+            position: relative;
+            max-width: 430px;
+            width: 100px;
+            padding: 34px;
+            background: #fff;
+            box-shadow: 0 5px 10px rgba(0, 0 ,0 ,0,2);
+            border: 2px solid whitesmoke;
+        }
+        .input{
+            position: relative;
+            background-color: blue;
+            
+            
+        }
+        .text{
+            position: relative;
+            background-color:orange;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wraper">
+        
+        <h2>Registaration </h2>
+        <form action="#">
+            
+            <div class="input-box">
+                <label for="text"> Nama :</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <label for="text"> Email :</label>
+                <input type="text" placeholder="Enter your email" required> 
+            </div>
+            <div class="input-box">
+                <label for="text">new possword :</label>
+                <input type="password" placeholder="Create possword" required>
+            </div>
+            <div class="input-box">
+                <label for="text"> pconform-ossword :</label>
+                <input type="password" placeholder="Confirm possword" required>
+            </div>
+            <div class="policy">
+                <!-- <input type="check-box"> -->
+                <h3> I accetp all items</h3>
+            </div>
+            <div class="input-box button">
+                <input type="submit" value="Register now" >
+             
+                <h3> already have a account : <a href="../Assignement/k5 login.html"> login-now</a></h3>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
